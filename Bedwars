@@ -1,0 +1,54 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local KillAura = Instance.new("TextButton")
+local Aimbot = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.201222152, 0, 0.472680032, 0)
+main.Size = UDim2.new(0, 988, 0, 529)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(197, 119, 255)
+label.Size = UDim2.new(0, 988, 0, 66)
+label.Font = Enum.Font.PermanentMarker
+label.Text = "SCRIPT GUI V.3 BY MYTHICALFROSTZ"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 45.000
+
+KillAura.Name = "Kill Aura!!"
+KillAura.Parent = main
+KillAura.BackgroundColor3 = Color3.fromRGB(255, 42, 120)
+KillAura.Position = UDim2.new(0, 0, 0.124763705, 0)
+KillAura.Size = UDim2.new(0, 528, 0, 434)
+KillAura.Font = Enum.Font.GothamBold
+KillAura.Text = "Kill Aura!!"
+KillAura.TextColor3 = Color3.fromRGB(0, 0, 0)
+KillAura.TextSize = 72.000
+KillAura.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/rbxhubs/robloxscript/main/script.lua"))()
+end)
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = main
+Aimbot.BackgroundColor3 = Color3.fromRGB(54, 0, 255)
+Aimbot.Position = UDim2.new(0.53441298, 0, 0.124763705, 0)
+Aimbot.Size = UDim2.new(0, 460, 0, 434)
+Aimbot.Font = Enum.Font.GothamBold
+Aimbot.Text = "Bow Aimbot!!"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 53.000
+Aimbot.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperGamingBros4/Roblox-HAX/main/Updated_Totally_Original_Script_Hub.Lua"))()
+end)
